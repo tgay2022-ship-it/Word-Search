@@ -131,7 +131,7 @@ padding-bottom:0px;
  text-align: center;
 
 display: inline-block;
-
+} /*close your tags*/
 
 .paint{ 
 display: flex;
@@ -152,7 +152,7 @@ display: inline-block;
 .type{ 
 display: flex;
 flex-direction: column;
-padding-left:-5000px;
+padding-left:-5000px;  /*no negative values, the broswer will ignore this*/
  padding-right:0px;
 padding:0px;
 padding-top: 0px;
@@ -219,5 +219,6 @@ img {
   margin: auto;
  
 }
+
 
 
